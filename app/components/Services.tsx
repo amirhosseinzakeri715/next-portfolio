@@ -25,16 +25,13 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="min-h-screen bg-black">
+    <section id="services" className="text-white py-16 md:py-32 w-full bg-black">
       <div className="container mx-auto px-4">
-        <div className="sticky top-0 z-50 bg-black/95 backdrop-blur-sm py-8">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center">
-            My <span className="text-purple-400">Services</span>
-          </h2>
-        </div>
-        <div className="flex flex-col lg:flex-row gap-8 md:gap-12 pt-8">
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-12">
           <div className="lg:w-1/3">
-            {/* Left side content if needed */}
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 lg:mb-0">
+              My <span className="text-purple-400">Services</span>
+            </h2>
           </div>
 
           <div className="lg:w-2/3">
@@ -44,7 +41,7 @@ const Services = () => {
                   <div className="text-purple-400 font-bold text-3xl md:text-4xl lg:text-5xl mb-4">
                     {service.id}
                   </div>
-                  <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 md:p-8 hover:bg-white/10 transition-all duration-300 border border-white/5 hover:border-white/10">
+                  <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 md:p-8 hover:bg-white/10 transition-all duration-300 border border-white/5 hover:border-white/10 flex flex-col items-start">
                     <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-3 text-white/90">{service.title}</h3>
                     <p className="text-white/70 text-base md:text-lg leading-relaxed">{service.description}</p>
                   </div>
