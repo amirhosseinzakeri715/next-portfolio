@@ -101,8 +101,8 @@ const Stack = () => {
                   variants={itemVariants}
                   className="bg-white/10 flex justify-center items-center flex-row rounded-xl shadow-xl p-6 hover:shadow-2xl transition-all duration-300"
                 >
-                  <div className={`mb-4 ${item.color}`}>{item.icon}</div>
-                  <p className="text-white/20 text-xl sm:text-2xl transform rotate-[-90deg] text-wrap">{item.name}</p>
+                  <div className={`flex items-center ${item.color}`}>{item.icon}</div>
+                  <p className="text-white/20 text-xl sm:text-2xl ml-4">{item.name}</p>
                 </motion.div>
               ))}
             </div>

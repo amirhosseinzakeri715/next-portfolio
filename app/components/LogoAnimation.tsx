@@ -2,8 +2,6 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import  git  from "../assets/git.png"; 
 
 const images = [
   {
@@ -87,7 +85,7 @@ const LogoAnimation = () => {
                   alt={image.alt}
                   height={50}
                   width={60}
-                  className="space-x-64"
+                  className="mx-8"
                 />
 
             ))}
