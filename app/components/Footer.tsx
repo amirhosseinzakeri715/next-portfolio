@@ -1,4 +1,3 @@
-import { a, label } from 'motion/react-client';
 import React from 'react'
 import {AiFillGithub, AiFillInstagram, AiFillLinkedin  } from "react-icons/ai"
 import { FaTelegramPlane } from "react-icons/fa";
@@ -7,7 +6,7 @@ const socialLinks = [
     { href : 'https://github.com/amirhosseinzakeri715', Icon : AiFillGithub , label: 'Github'},
     { href : 'https://www.linkedin.com/in/amir-hossein-zakeri-032934314/', Icon : AiFillLinkedin , label: 'Linked In'},
     { href : 'https://instagram.com/amirhossein_1608', Icon : AiFillInstagram , label: 'Instagram'},
-    { href : 'https://telegram.com/amirhossein_1608', Icon : AiFillGithub , label: 'Telegram'},
+    { href : 'https://telegram.com/amirhossein_1608', Icon : FaTelegramPlane , label: 'Telegram'},
 ]
 
 const Footer = () => {

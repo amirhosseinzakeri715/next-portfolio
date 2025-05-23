@@ -30,10 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.className} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.className} antialiased bg-black min-h-screen w-full overflow-x-hidden`}
       >
-        <main>{children}</main>
-        
+        <main className="w-full">{children}</main>
       </body>
     </html>
   );

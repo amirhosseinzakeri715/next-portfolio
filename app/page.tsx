@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import LogoAnimation from "./components/LogoAnimation";
@@ -12,10 +11,10 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen w-full overflow-x-hidden bg-black">
       <Navbar />
       <Hero />
-      <div  className="p-1 bg-black ">
+      <div className="w-full bg-black">
         <LogoAnimation />
         <About />
         <Portfolio />
