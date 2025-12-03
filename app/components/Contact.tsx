@@ -35,7 +35,7 @@ const Contact = () => {
               <div className="space-y-2">
                 <p className="text-base md:text-lg text-purple-400 font-medium">Phone</p>
                 <a
-                  href="tel:+9999999999999"
+                  href="tel:+989908884402"
                   className="text-lg md:text-xl font-semibold hover:text-purple-400 transition-colors duration-300 flex items-center gap-2"
                 >
                   +98 0990 888 44 02
